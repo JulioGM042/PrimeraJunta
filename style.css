@@ -1,0 +1,185 @@
+:root {
+    --color-fondo1: #F3F3F3;
+    --color-fondo2: #4A4A4A;
+    --color-fondo3: #F0A500;
+    --color-elemento1: #FFDD67;
+    --color-elemento2:#CF7500;
+    --color-texto2: #FFCD38; 
+    --color-texto2a: #f5df9c;    
+    --color-texto1: #841818;
+    --color-texto1a: #8d2f2fc7;    
+  }
+
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .nav-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "bebas neue";
+    color: var(--color-elemento2);
+    background-color: var(--color-fondo1);
+    padding: 5px;
+    width: 100%;
+  }
+
+  .subscripcion{
+    width: 50%;
+    margin: 0 auto;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .subscripcion p{
+    margin: 0 auto;
+    letter-spacing: 1px;
+  }
+
+  .nav-subscripcion{
+    width:50%;
+  }
+
+  #sub-email-area{
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-left: 10px;
+  }
+
+  .nav-items{
+    background-color: var(--color-fondo2);
+  }
+
+  .navlist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 2px;
+    margin: 0 auto;
+    max-height: 100px;
+  }
+
+  .navlist a{
+    text-decoration: none;
+    color: var(--color-texto2);
+    font-family: "bebas neue";
+    letter-spacing: 1px;
+    font-size:x-large;
+  }
+
+  .navlist img{
+    width: 200px;
+    height: auto;
+  }
+
+  .navlist #a1:hover{
+    transition: 0.3s ease-in;
+    color: var(--color-texto2a);
+    text-shadow: 0.5px 0.5px var(--color-texto2a);
+  }
+
+  main{
+    display: block;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+  }
+
+  .Heroe{
+    max-height: 900px;
+  }
+  .Heroe img {
+    width: 100%;
+    object-fit:contain;
+  }
+
+  .AccesoDirecto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-height: 400px;
+    margin-top: 20px;
+    
+  }
+  .AccesoDirecto img{
+    width: 250px;
+  }
+
+  .Directo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    }
+
+  .Directo img{
+    max-height: 125px;
+    padding: 5px;
+  }
+
+  .Texto-Directo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align:start;
+    padding: 5px;
+    border-right: solid 0.5px;
+    border-color: rgba(132, 24, 24, 0.7);
+    font-family: "Helvetica";
+    color: var(--color-texto1);
+  }
+
+  .Texto-Directo h4{
+    width: 100%;
+    text-align: start;
+    font-family: "Bebas Neue";
+  }
+
+  .Mini-categorias{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    list-style: none;
+    background-color: var(--color-fondo1);
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  .Mini-categorias a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-family: "bebas neue";
+    font-size:x-large;
+  }
+
+  .Mini-categorias p{
+    padding: 10px;
+    margin: 0 auto;
+  }
+
+  
+
+
+  
+
+
+
+  
+  
+  /*fontfamily "bebas neue"; "varela round"; "JosefinSans"
